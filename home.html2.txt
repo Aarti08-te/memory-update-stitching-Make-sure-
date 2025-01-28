@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Memory Update - Handcrafted stitching services for custom embroidery, alterations, and more.">
+    <meta name="keywords" content="stitching, embroidery, custom designs, alterations, handmade, Memory Update">
+    <meta name="author" content="Memory Update">
+    <title>Memory Update</title>
+    <style>
+        /* General Body and Layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f3e9dc; /* Light background color */
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: #333;
+            width: 100%;
+            padding: 1em 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        /* Home Section */
+        #home {
+            padding: 40px;
+            background: #f7d9e0; /* Soft gradient */
+        }
+
+        #home h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        #home p {
+            font-size: 1.2em;
+        }
+
+        /* About Section */
+        #about {
+            padding: 40px;
+            background: #f3e9dc;
+            width: 100%;
+        }
+
+        #about h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        #about p {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Services Section */
+        #services {
+            padding: 40px;
+            background: #fff;
+            width: 100%;
+        }
+
+        #services h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        #services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #services li {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        /* Gallery Section */
+        #gallery {
+            padding: 40px;
+            background: #f7d9e0;
+            width: 100%;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* Contact Section */
+        #contact {
+            padding: 40px;
+            background: #fff;
+            width: 100%;
+        }
+
+        #contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        #contact label {
+            font-size: 1.2em;
+        }
+
+        #contact input, #contact textarea {
+            padding: 10px;
+            font-size: 1em;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #contact button {
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+
+        #contact button:hover {
+            background: #444;
+        }
+
+        /* Footer Section */
+        footer {
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            width: 100%;
+            text-align: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media Query for smaller screens */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em; /* Reduces the font size for smaller screens */
+            }
+
+            p {
+                font-size: 1em; /* Reduces the font size for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Memory Update: Where Every Stitch Tells a Story</h1>
+        <p>Your go-to destination for handcrafted stitching, embroidery, and alterations. Let’s stitch your memories together!</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Memory Update is a small business dedicated to creating personalized stitching designs that hold sentimental value. We specialize in embroidery, alterations, and custom-made items.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Custom Embroidery</li>
+            <li>Alterations & Repairs</li>
+            <li>Personalized Door Mats</li>
+            <li>Wedding & Special Occasion Embroidery</li>
+        </ul>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Our Work</h2>
+        <div class="gallery">
+            <img src=".jpg" alt="Custom Embroidery Example">
+            <img src="images 2.jpg" alt="Personalized Alteration Example">
+            <img src="=image 1.jpg" alt="Door Mat Designs">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us </h2>
+        <form action="/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Memory Update. All rights reserved.</p>
+        <p>Follow us: <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+    </footer>
+</body>
+</html>
